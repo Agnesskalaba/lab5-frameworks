@@ -9,7 +9,7 @@ function App() {
       <button onClick={() => setShowMessage(!showMessage)} style={{ marginTop: "1rem", padding: "10px 20px" }}>
         Toggle Message
       </button>
-      {showMessage && <p style={{ marginTop: "1rem" }}>🎉 You toggled the message!</p>}
+      {showMessage && <p style={{ marginTop: "1rem" }}> You toggled the message!</p>}
     </div>
   );
 }
